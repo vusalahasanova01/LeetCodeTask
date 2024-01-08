@@ -23,7 +23,7 @@ public class MinimumIndexOfSumTwoList {
             hashMap.put(list1[i], i);
         }
 
-        int k = 0;
+        int k = 0; //just add first repeated string
         for (int i = 0; i < list2.length; i++) {
             String checkS = list2[i];
             if (hashMap.containsKey(checkS)) {
